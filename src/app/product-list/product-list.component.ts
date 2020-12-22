@@ -19,6 +19,6 @@ export class ProductListComponent implements OnInit {
   }
 
   onNotify() {
-    window.alert("onNotify");
+    window.alert("notified");
   }
 }
