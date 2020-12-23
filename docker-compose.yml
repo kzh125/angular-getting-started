@@ -1,0 +1,7 @@
+version: "3"
+services:
+  angular:
+    build: .
+    container_name: "angular-getting-started"
+    ports:
+      - 8080:80
